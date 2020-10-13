@@ -1,9 +1,12 @@
 using System;
+using CodeLibrary.Services;
+
 namespace CodeLibrary.Controllers
 {
   class LibraryController
   {
     private bool _running { get; set; }
+    private LibraryService _service { get; set; }
     public void Run()
     {
       while (_running)
@@ -72,9 +75,9 @@ namespace CodeLibrary.Controllers
       throw new NotImplementedException();
     }
 
-    private void Add()
+    void Add()
     {
-      throw new NotImplementedException();
-    }
+      _service.Add()
+  }
   }
 }

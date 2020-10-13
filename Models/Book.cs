@@ -2,7 +2,7 @@ using System;
 
 namespace CodeLibrary.Models
 {
-  abstract class Book
+  class Book
   {
     public string Title { get; set; }
     public string Author { get; set; }

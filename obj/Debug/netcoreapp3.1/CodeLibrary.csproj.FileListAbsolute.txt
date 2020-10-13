@@ -11,3 +11,9 @@ C:\source\codeworks\week10\Fall2020-Blockbuster\CodeLibrary\obj\Debug\netcoreapp
 C:\source\codeworks\week10\Fall2020-Blockbuster\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.dll
 C:\source\codeworks\week10\Fall2020-Blockbuster\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.pdb
 C:\source\codeworks\week10\Fall2020-Blockbuster\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.genruntimeconfig.cache
+C:\source\codeworks\week10\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.csprojAssemblyReference.cache
+C:\source\codeworks\week10\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.AssemblyInfoInputs.cache
+C:\source\codeworks\week10\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.AssemblyInfo.cs
+C:\source\codeworks\week10\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.csproj.CoreCompileInputs.cache
+C:\source\codeworks\week10\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.dll
+C:\source\codeworks\week10\CodeLibrary\obj\Debug\netcoreapp3.1\CodeLibrary.pdb

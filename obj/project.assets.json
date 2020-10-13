@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\codeworks\\week10\\Fall2020-Blockbuster\\CodeLibrary\\CodeLibrary.csproj",
+      "projectUniqueName": "C:\\source\\codeworks\\week10\\CodeLibrary\\CodeLibrary.csproj",
       "projectName": "CodeLibrary",
-      "projectPath": "C:\\source\\codeworks\\week10\\Fall2020-Blockbuster\\CodeLibrary\\CodeLibrary.csproj",
+      "projectPath": "C:\\source\\codeworks\\week10\\CodeLibrary\\CodeLibrary.csproj",
       "packagesPath": "C:\\Users\\sleba\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\codeworks\\week10\\Fall2020-Blockbuster\\CodeLibrary\\obj\\",
+      "outputPath": "C:\\source\\codeworks\\week10\\CodeLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sleba\\AppData\\Roaming\\NuGet\\NuGet.Config"

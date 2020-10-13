@@ -7,23 +7,22 @@ namespace CodeLibrary.Services
 
   class LibraryService
   {
-
-
+    public List<Book> Books { get; set; }
     public string GetBooks(bool available)
     {
       string list = "";
-      for (int i = 0; i < Books.count; i++)
+      for (int i = 0; i < Books.Count; i++)
       {
         var book = Books[i];
-        if (book.IsAvalible == available)
+        if (book.IsAvailable == available)
         {
           list += $"{i + 1}. {book.Title} - by {book.Author}\n";
         }
-        return list;
       }
+      return list;
     }
 
-    private static string Checkout(int selection)
+    string Checkout(int selection)
     {
       var books = Books.FindAll(b => b.IsAvailable == true);
       if (selection <= books.Count)
@@ -34,12 +33,12 @@ namespace CodeLibrary.Services
       return "Invalid Input, please provide a number listed";
     }
 
-    private void ReturnBook()
+    void ReturnBook()
     {
       Console.WriteLine(GetBooks(false));
     }
 
-    private void Add()
+    void Add()
     {
       System.Console.Write("Title: ");
       string title = Console.ReadLine();
@@ -51,7 +50,7 @@ namespace CodeLibrary.Services
       _service.Add(newBook);
       System.Console.WriteLine($"Successfully added {title} to the collection");
     }
-    private void Delete()
+    void Delete()
     {
       Console.Write("Enter the Title you wish to remove: ");
       string title = Console.ReadLine().ToLower();
@@ -74,10 +73,8 @@ namespace CodeLibrary.Services
     public LibraryService()
     {
       Books = new List<Book>(){
-          new Book("Twilight", "Stephanie Mayer", "supa gay", true),
+          new Book("Twilight", "Stephanie Mayer", "supa gay")
         };
-
-      Books.IsAvailable = false;
     }
   }
 }
